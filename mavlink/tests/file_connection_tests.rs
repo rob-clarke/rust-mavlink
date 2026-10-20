@@ -1,6 +1,6 @@
 mod test_shared;
 
-#[cfg(feature = "dialect-common")]
+#[cfg(feature = "dialect-ardupilotmega")]
 mod test_file_connections {
     #[cfg(feature = "tokio")]
     use mavlink::AsyncMavConnection;
